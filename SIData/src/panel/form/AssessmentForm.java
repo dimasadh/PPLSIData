@@ -29,7 +29,7 @@ public class AssessmentForm extends JPanel {
 		JPanel Form = new JPanel();
 		Form.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
 		Form.setBackground(new Color(222, 184, 135));
-		Form.setBounds(0, 0, 620, 409);
+		Form.setBounds(0, 0, 644, 406);
 		add(Form);
 		Form.setLayout(null);
 		
@@ -90,7 +90,7 @@ public class AssessmentForm extends JPanel {
 		//submit form report
 		btnSubmit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				//connect ke database report/assessment
 			}
 		});
 		
